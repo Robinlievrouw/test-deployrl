@@ -1,7 +1,7 @@
 https = require('https');
 
-const hostname = 'https://conferencetool.azurewebsites.net/';
-const port = 3000;
+const hostname = '0.0.0.0';
+const port = 80;
 
 const server = https.createServer((req, res) => {
   res.statusCode = 200;
